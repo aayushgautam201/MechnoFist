@@ -249,6 +249,9 @@ const HomeScreen: React.FC = () => {
             </View>
           </TouchableOpacity>
         </View>
+        <TouchableOpacity onPress={() => navigation.navigate("EmployeeHomepage")} style={{ position: "absolute", bottom: 20, right: 20 }}>
+          <Text>Employee ho</Text>
+        </TouchableOpacity>
       </ScrollView>
 
       {/* Bottom Navigation */}
@@ -269,6 +272,7 @@ const HomeScreen: React.FC = () => {
           <Ionicons name="person-outline" size={24} color={theme.colors.textLight} />
         </TouchableOpacity>
       </View>
+
     </SafeAreaView>
   );
 };
