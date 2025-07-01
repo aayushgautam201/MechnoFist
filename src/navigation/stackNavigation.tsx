@@ -21,6 +21,9 @@ import BookingDetailScreen from '../booking/bookingDetailpage';
 import ChatScreen from '../chat/chatScreen';
 import HelpSupportScreen from '../user/helpandSupport';
 import SettingsScreen from '../user/settingsScreen';
+import EmployeeHomeScreen from '../employee/employeehomepage';
+import JobDetailScreen from '../employee/jobDetailPage';
+import EmployeeProfileScreen from '../employee/employeeProfileScreen';
 
 
 
@@ -55,6 +58,9 @@ const NavigationData = () => {
                 <Stack.Screen name="ChatScreen" component={ChatScreen} /> 
                 <Stack.Screen name="HelpSupport" component={HelpSupportScreen} /> 
                 <Stack.Screen name="Settings" component={SettingsScreen} /> 
+                <Stack.Screen name="EmployeeHomepage" component={EmployeeHomeScreen} /> 
+                <Stack.Screen name="JobDetailPage" component={JobDetailScreen} /> 
+                <Stack.Screen name="EmployeeProfileScreen" component={EmployeeProfileScreen} /> 
 
 
 
